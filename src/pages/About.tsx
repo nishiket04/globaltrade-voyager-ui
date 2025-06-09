@@ -1,33 +1,24 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, Target, Eye, Award } from "lucide-react";
-
 const About = () => {
-  const values = [
-    {
-      icon: Award,
-      title: "Excellence",
-      description: "We strive for the highest standards in every aspect of our service delivery."
-    },
-    {
-      icon: Users,
-      title: "Partnership",
-      description: "Building long-term relationships based on trust, transparency, and mutual success."
-    },
-    {
-      icon: Target,
-      title: "Innovation",
-      description: "Continuously improving our processes and adopting new technologies for better results."
-    },
-    {
-      icon: Eye,
-      title: "Integrity",
-      description: "Conducting business with honesty, ethics, and respect for all stakeholders."
-    }
-  ];
-
-  return (
-    <div className="min-h-screen">
+  const values = [{
+    icon: Award,
+    title: "Excellence",
+    description: "We strive for the highest standards in every aspect of our service delivery."
+  }, {
+    icon: Users,
+    title: "Partnership",
+    description: "Building long-term relationships based on trust, transparency, and mutual success."
+  }, {
+    icon: Target,
+    title: "Innovation",
+    description: "Continuously improving our processes and adopting new technologies for better results."
+  }, {
+    icon: Eye,
+    title: "Integrity",
+    description: "Conducting business with honesty, ethics, and respect for all stakeholders."
+  }];
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-light-cyan to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,11 +34,7 @@ const About = () => {
               </p>
             </div>
             <div className="animate-slide-in">
-              <img
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Global Trade Team"
-                className="w-full h-96 object-cover rounded-2xl shadow-custom-lg"
-              />
+              <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Global Trade Team" className="w-full h-96 object-cover rounded-2xl shadow-custom-lg" />
             </div>
           </div>
         </div>
@@ -58,7 +45,7 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <Card className="border-0 shadow-custom rounded-xl">
-              <CardContent className="p-8">
+              <CardContent className="p-8 bg-white">
                 <Target className="h-12 w-12 text-cyan mb-6" />
                 <h3 className="text-2xl font-bold text-navy mb-4">Our Mission</h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -71,7 +58,7 @@ const About = () => {
             </Card>
 
             <Card className="border-0 shadow-custom rounded-xl">
-              <CardContent className="p-8">
+              <CardContent className="p-8 bg-white">
                 <Eye className="h-12 w-12 text-cyan mb-6" />
                 <h3 className="text-2xl font-bold text-navy mb-4">Our Vision</h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -99,15 +86,13 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {values.map((value, index) => (
-              <Card key={index} className="bg-white border-0 shadow-custom rounded-xl text-center">
+            {values.map((value, index) => <Card key={index} className="bg-white border-0 shadow-custom rounded-xl text-center">
                 <CardContent className="p-8">
                   <value.icon className="h-12 w-12 text-cyan mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-navy mb-3">{value.title}</h3>
                   <p className="text-gray-600">{value.description}</p>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -126,11 +111,7 @@ const About = () => {
           </div>
 
           <div className="relative">
-            <img
-              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-              alt="GlobalTrade Exports Team"
-              className="w-full h-96 object-cover rounded-2xl shadow-custom-lg"
-            />
+            <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="GlobalTrade Exports Team" className="w-full h-96 object-cover rounded-2xl shadow-custom-lg" />
             <div className="absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent rounded-2xl"></div>
             <div className="absolute bottom-8 left-8 text-white">
               <h3 className="text-2xl font-bold mb-2">United by Purpose</h3>
@@ -154,8 +135,6 @@ const About = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default About;
