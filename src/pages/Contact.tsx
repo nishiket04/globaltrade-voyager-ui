@@ -1,34 +1,25 @@
-
 import ContactForm from "@/components/ContactForm";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
-
 const Contact = () => {
-  const contactInfo = [
-    {
-      icon: MapPin,
-      title: "Our Office",
-      details: ["123 Trade Center Boulevard", "Export City, EC 12345", "United States"]
-    },
-    {
-      icon: Phone,
-      title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 123-4568"]
-    },
-    {
-      icon: Mail,
-      title: "Email",
-      details: ["info@globaltradeexports.com", "support@globaltradeexports.com"]
-    },
-    {
-      icon: Clock,
-      title: "Business Hours",
-      details: ["Monday - Friday: 8:00 AM - 6:00 PM", "Saturday: 9:00 AM - 2:00 PM", "Sunday: Closed"]
-    }
-  ];
-
-  return (
-    <div className="min-h-screen">
+  const contactInfo = [{
+    icon: MapPin,
+    title: "Our Office",
+    details: ["123 Trade Center Boulevard", "Export City, EC 12345", "United States"]
+  }, {
+    icon: Phone,
+    title: "Phone",
+    details: ["+1 (555) 123-4567", "+1 (555) 123-4568"]
+  }, {
+    icon: Mail,
+    title: "Email",
+    details: ["info@globaltradeexports.com", "support@globaltradeexports.com"]
+  }, {
+    icon: Clock,
+    title: "Business Hours",
+    details: ["Monday - Friday: 8:00 AM - 6:00 PM", "Saturday: 9:00 AM - 2:00 PM", "Sunday: Closed"]
+  }];
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-light-cyan to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -69,23 +60,19 @@ const Contact = () => {
               </div>
 
               <div className="space-y-6">
-                {contactInfo.map((info, index) => (
-                  <Card key={index} className="border border-gray-100 rounded-xl">
-                    <CardContent className="p-6">
+                {contactInfo.map((info, index) => <Card key={index} className="border border-gray-100 rounded-xl">
+                    <CardContent className="p-6 bg-white">
                       <div className="flex items-start space-x-4">
                         <div className="w-12 h-12 bg-light-cyan rounded-lg flex items-center justify-center flex-shrink-0">
                           <info.icon className="h-6 w-6 text-cyan" />
                         </div>
                         <div>
                           <h3 className="font-semibold text-navy mb-2">{info.title}</h3>
-                          {info.details.map((detail, idx) => (
-                            <p key={idx} className="text-gray-600 text-sm">{detail}</p>
-                          ))}
+                          {info.details.map((detail, idx) => <p key={idx} className="text-gray-600 text-sm">{detail}</p>)}
                         </div>
                       </div>
                     </CardContent>
-                  </Card>
-                ))}
+                  </Card>)}
               </div>
             </div>
           </div>
@@ -124,7 +111,7 @@ const Contact = () => {
           </div>
 
           <Card className="max-w-md mx-auto border border-gray-100 rounded-xl">
-            <CardContent className="p-8 text-center">
+            <CardContent className="p-8 text-center bg-white">
               <Phone className="h-12 w-12 text-cyan mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-navy mb-2">24/7 Emergency Line</h3>
               <p className="text-2xl font-bold text-cyan mb-2">+1 (555) 999-0000</p>
@@ -133,8 +120,6 @@ const Contact = () => {
           </Card>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Contact;
