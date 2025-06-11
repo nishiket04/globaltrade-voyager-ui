@@ -24,7 +24,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
             <Ship className="h-8 w-8 text-cyan" />
-            <span className="text-xl font-bold text-navy">GlobalTrade Exports</span>
+            <span className="text-xl font-bold text-navy">Argoimex Exports</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -40,9 +40,9 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <Button asChild className="bg-cyan hover:bg-cyan/90 text-white rounded-lg px-6">
+            {/* <Button asChild className="bg-cyan hover:bg-cyan/90 text-white rounded-lg px-6">
               <Link to="/contact">Get Quote</Link>
-            </Button>
+            </Button> */}
           </div>
 
           {/* Mobile menu button */}
