@@ -13,7 +13,7 @@ const HeroSection = () => {
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-navy leading-tight">
                 Your Gateway to 
-                <span className="text-cyan"> Global Trade</span>
+                <span className="text-cyan"> Argoimex</span>
               </h1>
               <p className="text-lg lg:text-xl text-gray-600 leading-relaxed">
                 Professional export services that connect your business to international markets. 

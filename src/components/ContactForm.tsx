@@ -32,14 +32,14 @@ const ContactForm = () => {
               <Label htmlFor="fullName" className="text-navy font-medium">
                 Full Name *
               </Label>
-              <Input id="fullName" name="fullName" type="text" required placeholder="Enter your full name" className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent" />
+              <Input id="fullName" name="fullName" type="text" required placeholder="Enter your full name" className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent placeholder:text-gray-400" />
             </div>
 
             <div className="space-y-2">
               <Label htmlFor="email" className="text-navy font-medium">
                 Email Address *
               </Label>
-              <Input id="email" name="email" type="email" required placeholder="Enter your email address" className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent" />
+              <Input id="email" name="email" type="email" required placeholder="Enter your email address" className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent placeholder:text-gray-400" />
             </div>
           </div>
 
@@ -47,14 +47,14 @@ const ContactForm = () => {
             <Label htmlFor="company" className="text-navy font-medium">
               Company Name
             </Label>
-            <Input id="company" name="company" type="text" placeholder="Enter your company name" className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent" />
+            <Input id="company" name="company" type="text" placeholder="Enter your company name" className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent placeholder:text-gray-400" />
           </div>
 
           <div className="space-y-2">
             <Label htmlFor="message" className="text-navy font-medium">
               Message *
             </Label>
-            <Textarea id="message" name="message" required rows={6} placeholder="Tell us about your export needs, target markets, or any questions you have..." className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg resize-none bg-transparent" />
+            <Textarea id="message" name="message" required rows={6} placeholder="Tell us about your export needs, target markets, or any questions you have..." className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg resize-none bg-transparent placeholder:text-gray-400" />
           </div>
 
           <Button type="submit" disabled={isSubmitting} className="w-full bg-cyan hover:bg-cyan/90 text-white rounded-lg h-12 text-lg font-medium">
