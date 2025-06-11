@@ -5,11 +5,11 @@ const Contact = () => {
   const contactInfo = [{
     icon: MapPin,
     title: "Our Office",
-    details: ["123 Trade Center Boulevard", "Export City, EC 12345", "United States"]
+    details: ["95, Hariramnagar-2, Subhashnagar", "Bhavnagar, 364001", "India"]
   }, {
     icon: Phone,
     title: "Phone",
-    details: ["+1 (555) 123-4567", "+1 (555) 123-4568"]
+    details: ["+91 96624 14204"]
   }, {
     icon: Mail,
     title: "Email",
@@ -80,7 +80,7 @@ const Contact = () => {
       </section>
 
       {/* Map Section */}
-      <section className="py-20 bg-light-cyan">
+      {/* <section className="py-20 bg-light-cyan">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-navy mb-4">Find Us</h2>
@@ -97,7 +97,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ or Additional Info */}
       <section className="py-20 bg-white">
@@ -114,7 +114,7 @@ const Contact = () => {
             <CardContent className="p-8 text-center bg-white">
               <Phone className="h-12 w-12 text-cyan mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-navy mb-2">24/7 Emergency Line</h3>
-              <p className="text-2xl font-bold text-cyan mb-2">+1 (555) 999-0000</p>
+              <p className="text-2xl font-bold text-cyan mb-2">+91 96624 14204</p>
               <p className="text-gray-600 text-sm">For urgent shipment issues only</p>
             </CardContent>
           </Card>

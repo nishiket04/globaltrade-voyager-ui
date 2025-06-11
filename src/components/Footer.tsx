@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Ship className="h-8 w-8 text-cyan" />
-              <span className="text-xl font-bold">GlobalTrade Exports</span>
+              <span className="text-xl font-bold">Argoimex Exports</span>
             </div>
             <p className="text-gray-300 text-sm">
               Professional export services for international trade. Building bridges across global markets with trust and expertise.
@@ -52,7 +52,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-gray-300">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-cyan" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 96624 14204</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-cyan" />
@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-cyan" />
-                <span>123 Trade Center, Export City</span>
+                <span>95, Hariramnagar-2, Subhashnagar, Bhavnagar, 364001.</span>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 GlobalTrade Exports. All rights reserved. | Professional Export Services
+            © 2025 Argoimex Exports. All rights reserved. | Professional Export Services
           </p>
         </div>
       </div>

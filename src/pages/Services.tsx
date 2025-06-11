@@ -20,7 +20,7 @@ const Services = () => {
         "Door-to-Door Delivery",
         "Real-time Tracking & Monitoring"
       ],
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "src/images/service_2.jpg"
     },
     {
       icon: FileCheck,
@@ -33,7 +33,7 @@ const Services = () => {
         "Tariff Classification",
         "Duty Optimization"
       ],
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "src/images/service_1.jpg"
     },
     {
       icon: Search,
@@ -46,7 +46,7 @@ const Services = () => {
         "Vendor Management",
         "Risk Assessment"
       ],
-      image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "src/images/service_3.webp"
     },
     {
       icon: Globe,
@@ -59,7 +59,7 @@ const Services = () => {
         "Trade Finance Guidance",
         "Business Development Support"
       ],
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "src/images/service_4.webp"
     }
   ];
 

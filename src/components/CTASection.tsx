@@ -24,14 +24,14 @@ const CTASection = () => {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-black bg-white hover:text-navy rounded-lg px-8">
-              <a href="tel:+15551234567">
+              <a href="tel:+91 9662414204">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Now
               </a>
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 border-t border-gray-700">
+          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 border-t border-gray-700">
             <div>
               <div className="text-3xl font-bold text-cyan mb-2">24/7</div>
               <div className="text-gray-300">Expert Support</div>
@@ -44,7 +44,7 @@ const CTASection = () => {
               <div className="text-3xl font-bold text-cyan mb-2">15+</div>
               <div className="text-gray-300">Years Experience</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -38,19 +38,19 @@ const HeroSection = () => {
             {/* Trust indicators */}
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
-                <Globe className="h-8 w-8 text-cyan mx-auto mb-2" />
-                <div className="text-2xl font-bold text-navy">50+</div>
-                <div className="text-sm text-gray-600">Countries</div>
+                {/* <Globe className="h-8 w-8 text-cyan mx-auto mb-2" /> */}
+                {/* <div className="text-2xl font-bold text-navy">50+</div>
+                <div className="text-sm text-gray-600">Countries</div> */}
               </div>
               <div className="text-center">
-                <TrendingUp className="h-8 w-8 text-cyan mx-auto mb-2" />
-                <div className="text-2xl font-bold text-navy">98%</div>
-                <div className="text-sm text-gray-600">Success Rate</div>
+                {/* <TrendingUp className="h-8 w-8 text-cyan mx-auto mb-2" /> */}
+                {/* <div className="text-2xl font-bold text-navy">98%</div>
+                <div className="text-sm text-gray-600">Success Rate</div> */}
               </div>
               <div className="text-center">
-                <Shield className="h-8 w-8 text-cyan mx-auto mb-2" />
-                <div className="text-2xl font-bold text-navy">24/7</div>
-                <div className="text-sm text-gray-600">Support</div>
+                {/* <Shield className="h-8 w-8 text-cyan mx-auto mb-2" /> */}
+                {/* <div className="text-2xl font-bold text-navy">24/7</div>
+                <div className="text-sm text-gray-600">Support</div> */}
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-in">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="src/images/home_page_pic.jpg"
                 alt="International Trade Technology"
                 className="w-full h-96 lg:h-[500px] object-cover rounded-2xl shadow-custom-lg"
               />
@@ -67,7 +67,7 @@ const HeroSection = () => {
             </div>
             
             {/* Floating card */}
-            <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-custom-lg border border-gray-100">
+            {/* <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-custom-lg border border-gray-100">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-cyan rounded-lg flex items-center justify-center">
                   <Shield className="h-6 w-6 text-white" />
@@ -77,7 +77,7 @@ const HeroSection = () => {
                   <div className="text-sm text-gray-600">ISO Certified</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

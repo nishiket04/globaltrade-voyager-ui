@@ -10,8 +10,8 @@ const Index = () => {
     <div>
       <HeroSection />
       <FeaturedServices />
-      <ClientTestimonials />
-      <CompanyLogos />
+      {/* <ClientTestimonials /> */}
+      {/* <CompanyLogos /> */}
       <CTASection />
     </div>
   );
