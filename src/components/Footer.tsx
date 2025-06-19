@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Ship className="h-8 w-8 text-cyan" />
-              <span className="text-xl font-bold">Argoimex Exports</span>
+              <span className="text-xl font-bold">Argoimex </span>
             </div>
             <p className="text-gray-300 text-sm">
               Professional export services for international trade. Building bridges across global markets with trust and expertise.
@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="space-y-2">
-              {["Home", "About", "Services", "Contact"].map((item) => (
+              {["Home", "About","Contact"].map((item) => (
                 <li key={item}>
                   <Link 
                     to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
@@ -52,11 +52,12 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-gray-300">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-cyan" />
-                <span>+91 96624 14204</span>
+                <span>+91 6359196943</span>
+                <span>+91 9662414204</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-cyan" />
-                <span>info@globaltradeexports.com</span>
+                <span>argoimex@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-cyan" />

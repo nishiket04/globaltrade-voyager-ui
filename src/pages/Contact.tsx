@@ -9,14 +9,14 @@ const Contact = () => {
   }, {
     icon: Phone,
     title: "Phone",
-    details: ["+91 96624 14204"]
+    details: ["+91 6359196943"]
   }, {
     icon: Mail,
     title: "Email",
-    details: ["info@globaltradeexports.com", "support@globaltradeexports.com"]
+    details: ["argoimex@gmail.com", "support@globaltradeexports.com"]
   }, {
     icon: Clock,
-    title: "Business Hours",
+    title: "Business Hours (Indian time line)",
     details: ["Monday - Friday: 8:00 AM - 6:00 PM", "Saturday: 9:00 AM - 2:00 PM", "Sunday: Closed"]
   }];
   return <div className="min-h-screen">
@@ -100,7 +100,7 @@ const Contact = () => {
       </section> */}
 
       {/* FAQ or Additional Info */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-navy mb-4">Emergency Contact</h2>
@@ -110,16 +110,16 @@ const Contact = () => {
             </p>
           </div>
 
-          <Card className="max-w-md mx-auto border border-gray-100 rounded-xl">
+         <Card className="max-w-md mx-auto border border-gray-100 rounded-xl">
             <CardContent className="p-8 text-center bg-white">
               <Phone className="h-12 w-12 text-cyan mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-navy mb-2">24/7 Emergency Line</h3>
               <p className="text-2xl font-bold text-cyan mb-2">+91 96624 14204</p>
               <p className="text-gray-600 text-sm">For urgent shipment issues only</p>
-            </CardContent>
+            </CardContent ontent>
           </Card>
         </div>
-      </section>
+      </section> */}
     </div>;
 };
 export default Contact;

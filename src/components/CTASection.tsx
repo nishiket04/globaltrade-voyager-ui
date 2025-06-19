@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { ArrowRight, Phone } from "lucide-react";
+import { ArrowRight, Mail, Phone } from "lucide-react";
 
 const CTASection = () => {
   return (
@@ -24,9 +24,13 @@ const CTASection = () => {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-black bg-white hover:text-navy rounded-lg px-8">
-              <a href="tel:+91 9662414204">
-                <Phone className="mr-2 h-5 w-5" />
-                Call Now
+               <a 
+                href="https://mail.google.com/mail/?view=cm&to=argoimex@gmail.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Mail className="mr-2 h-5 w-5" />
+                Email Us
               </a>
             </Button>
           </div>

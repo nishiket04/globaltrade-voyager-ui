@@ -58,10 +58,10 @@ const HeroSection = () => {
           {/* Hero Image */}
           <div className="relative animate-slide-in">
             <div className="relative">
-              <img
-                src="src/images/home_page_pic.jpg"
-                alt="International Trade Technology"
-                className="w-full h-96 lg:h-[500px] object-cover rounded-2xl shadow-custom-lg"
+               <img
+                src="src/images/index.jpg"
+                alt="Global Trade Team"
+                className="w-full h-96 object-cover rounded-2xl shadow-custom-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/20 to-transparent rounded-2xl"></div>
             </div>

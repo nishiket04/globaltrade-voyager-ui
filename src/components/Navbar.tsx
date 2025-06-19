@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Ship } from "lucide-react";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -13,8 +14,10 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
-    { name: "Services", path: "/services" },
+    
+    { name: "Product", path: "/product" },
     { name: "Contact", path: "/contact" },
+
   ];
 
   return (
@@ -24,7 +27,12 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
             <Ship className="h-8 w-8 text-cyan" />
-            <span className="text-xl font-bold text-navy">Argoimex Exports</span>
+            {/* <img
+                src="src/images/logo.jpg"
+                alt="International Trade Technology"
+                className="h-32 w-32 object-contain"
+              /> */}
+            <span className="text-xl font-bold text-navy">ARGOIMEX </span>
           </Link>
 
           {/* Desktop Navigation */}
