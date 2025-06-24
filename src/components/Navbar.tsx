@@ -26,15 +26,20 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-            <Ship className="h-8 w-8 text-cyan" />
-            {/* <img
-                src="src/images/logo.jpg"
-                alt="International Trade Technology"
-                className="h-32 w-32 object-contain"
-              /> */}
-            <span className="text-xl font-bold text-navy">ARGOIMEX </span>
-          </Link>
+          <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
+          
+ <div className="flex items-center space-x-2">
+  <img
+    src="src/images/argoi.svg"
+    alt="International Trade Technology"
+    className="h-12 w-12 object-contain"
+  />
+  <span className="text-3xl font-bold text-navy">ARGOIMEX</span>
+</div>
+
+  
+</Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

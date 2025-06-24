@@ -10,8 +10,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Ship className="h-8 w-8 text-cyan" />
-              <span className="text-xl font-bold">Argoimex </span>
+<img
+    src="src/images/argoi.svg"
+    alt="International Trade Technology"
+    className="h-10 w-10 object-contain"
+  />              <span className="text-xl font-bold">Argoimex </span>
             </div>
             <p className="text-gray-300 text-sm">
               Professional export services for international trade. Building bridges across global markets with trust and expertise.
