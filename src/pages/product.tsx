@@ -108,9 +108,7 @@ const Product = () => {
                   }`}
                 >
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-light-cyan rounded-lg flex items-center justify-center">
-                      <service.icon className="h-6 w-6 text-cyan" />
-                    </div>
+                    
                     <h3 className="text-2xl lg:text-3xl font-bold text-navy">
                       {service.title}
                     </h3>

@@ -9,11 +9,11 @@ const Contact = () => {
   }, {
     icon: Phone,
     title: "Phone",
-    details: ["+91 6359196943"]
+    details: ["+91 6359196943", "+91 9662414204"]
   }, {
     icon: Mail,
     title: "Email",
-    details: ["argoimex@gmail.com", "support@globaltradeexports.com"]
+    details: ["argoimex@gmail.com"]
   }, {
     icon: Clock,
     title: "Business Hours (Indian time line)",
