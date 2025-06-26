@@ -25,29 +25,28 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
-          
- <div className="flex items-center space-x-2">
-  <img
-    src="src/images/argoi.svg"
-    alt="International Trade Technology"
-    className="h-12 w-12 object-contain"
-  />
-  <span className="text-3xl font-bold text-navy">ARGOIMEX</span>
-</div>
 
-  
-</Link>
+            <div className="flex items-center space-x-2">
+              <img
+                src="src/images/argoi.svg"
+                alt="International Trade Technology"
+                className="h-12 w-12 object-contain"
+              />
+              <span className="text-3xl font-bold text-navy">ARGOIMEX</span>
+            </div>
+
+
+          </Link>
 
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-centFer space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-cyan ${
-                  isActive(item.path) ? "text-cyan" : "text-navy"
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-cyan ${isActive(item.path) ? "text-cyan" : "text-navy"
+                  }`}
               >
                 {item.name}
               </Link>
@@ -79,9 +78,8 @@ const Navbar = () => {
                   key={item.name}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`text-sm font-medium transition-colors hover:text-cyan ${
-                    isActive(item.path) ? "text-cyan" : "text-navy"
-                  }`}
+                  className={`text-sm font-medium transition-colors hover:text-cyan ${isActive(item.path) ? "text-cyan" : "text-navy"
+                    }`}
                 >
                   {item.name}
                 </Link>
