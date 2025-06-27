@@ -5,7 +5,7 @@ const Contact = () => {
   const contactInfo = [{
     icon: MapPin,
     title: "Our Office",
-    details: ["95, Hariramnagar-2, Subhashnagar", "Bhavnagar, 364001", "India"]
+    details: ["95, Hariramnagar-2, Subhashnagar", " Bhavnagar-364001,  Gujarat, india", "India"]
   }, {
     icon: Phone,
     title: "Phone",
@@ -16,7 +16,7 @@ const Contact = () => {
     details: ["argoimex@gmail.com"]
   }, {
     icon: Clock,
-    title: "Business Hours (Indian time line)",
+    title: "Business Hours (IST)",
     details: ["Monday - Friday: 8:00 AM - 6:00 PM", "Saturday: 9:00 AM - 2:00 PM", "Sunday: Closed"]
   }];
   return <div className="min-h-screen">

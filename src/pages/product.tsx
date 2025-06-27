@@ -21,7 +21,7 @@ const Product = () => {
       title: "Industrial Salt ",
       description:
         "We offer high-purity Industrial Salt suitable for a wide range of industrial applications, including chemical manufacturing, de-icing, water treatment, textiles, detergents, drilling, and food processing (non-edible use). Sourced from trusted producers and processed under stringent quality control, our salt meets international standards. Available in bulk or customized packaging, our Industrial Salt ensures consistent grain size, low moisture content, and reliable supply logistics to meet the needs of global buyers.",
-      
+
       image: "src/images/img2.jpg",
     },
     {
@@ -29,7 +29,7 @@ const Product = () => {
       title: "Jute Bags",
       description:
         "Our premium jute bags are crafted from 100% natural, biodegradable fibers, making them an ideal eco-conscious alternative to plastic. Designed for durability and style, these bags are perfect for shopping, packaging, gifting, and promotional use.We offer a wide range of customizable jute bags in various sizes, colors, and prints to suit diverse international markets. Whether you're a retailer, wholesaler, or brand, our jute bags ensure high strength, elegant appeal, and a strong sustainability statement.",
-      
+
       image: "src/images/service_3.webp",
     },
     {
@@ -37,7 +37,7 @@ const Product = () => {
       title: "Sewing weaving thread ",
       description:
         "We offer a premium range of sewing and weaving threads crafted from high-quality polyester, cotton, and blended fibers. Our threads are engineered for high tensile strength, color fastness, and smooth performance across a wide range of industrial and domestic applications. Suitable for garment manufacturing, home textiles, upholstery, footwear, and traditional weaving, our threads are available in various counts, colors, and spool sizes to meet international standards and client requirements.",
-      
+
       image: "src/images/img4.jpg",
     },
     {
@@ -45,7 +45,7 @@ const Product = () => {
       title: "Cocopeat ",
       description:
         "Cocopeat, also known as coir pith or coir dust, is a natural, lightweight, and eco-friendly growing medium made from coconut husk fibers. Highly porous and excellent in water retention, it is ideal for seed starting, potting mixes, hydroponic systems, and soil conditioning.Our export-grade cocopeat is carefully processed, washed, and dried to maintain low EC and pH levels, ensuring optimal plant growth. Available in 5kg blocks, grow bags, or loose form, it is suitable for a wide range of crops and climates.",
-     
+
       image: "src/images/img3.jpg",
     },
   ];
@@ -80,12 +80,15 @@ const Product = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto space-y-8 animate-fade-in">
             <h1 className="text-4xl lg:text-5xl font-bold text-navy">
-              Comprehensive <span className="text-cyan">Export Services</span>
+            Premium  
+              <span className="text-cyan"> Export Products</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
-              From logistics to documentation, we provide end-to-end export
-              services that simplify international trade and help your business
-              thrive globally.
+              Explore our diverse range of
+              high-grade export products, carefully sourced and manufactured to
+              meet international standards. Whether you're looking for
+              industrial materials or specialty items, we ensure consistent
+              quality and global supply capability.
             </p>
           </div>
         </div>
@@ -108,7 +111,6 @@ const Product = () => {
                   }`}
                 >
                   <div className="flex items-center space-x-3">
-                    
                     <h3 className="text-2xl lg:text-3xl font-bold text-navy">
                       {service.title}
                     </h3>
@@ -155,7 +157,7 @@ const Product = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
-              Additional Services
+              Additional Service
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Supporting services to ensure your export operations run smoothly
