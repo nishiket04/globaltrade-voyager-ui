@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Globe, TrendingUp, Shield } from "lucide-react";
+import heroImage from "@/images/index.jpg";
 
 const HeroSection = () => {
   return (
@@ -59,7 +60,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-in">
             <div className="relative">
                <img
-                src="src/images/index.jpg"
+                src={heroImage}
                 alt="Global Trade Team"
                 className="w-full h-96 object-cover rounded-2xl shadow-custom-lg"
               />
