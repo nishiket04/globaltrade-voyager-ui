@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { Ship, Mail, Phone, MapPin } from "lucide-react";
+import logo from "@/images/argoi.svg"
 
 const Footer = () => {
   return (
@@ -10,11 +11,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-<img
-    src="src/images/argoi.svg"
-    alt="International Trade Technology"
-    className="h-10 w-10 object-contain"
-  />              <span className="text-xl font-bold">Argoimex </span>
+              <img
+                src={logo}
+                alt="International Trade Technology"
+                className="h-10 w-10 object-contain"
+              />              <span className="text-xl font-bold">Argoimex </span>
             </div>
             <p className="text-gray-300 text-sm">
               Professional export services for international trade. Building bridges across global markets with trust and expertise.
@@ -26,7 +27,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="space-y-2">
 
-              {["Home", "About","Product","Contact"].map((item) => (
+              {["Home", "About", "Product", "Contact"].map((item) => (
                 <li key={item}>
                   <Link
                     to={item === "Home" ? "/" : `/${item.toLowerCase()}`}

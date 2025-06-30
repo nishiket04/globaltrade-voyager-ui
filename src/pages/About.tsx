@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, Target, Eye, Award } from "lucide-react";
+import img from "@images/img5.jpg"
 const About = () => {
   const values = [
     {
@@ -59,7 +60,7 @@ const About = () => {
             </div>
             <div className="animate-slide-in">
               <img
-                src="src/images/img5.jpg"
+                src={img}
                 alt="Global Trade Team"
                 className="w-full h-96 object-cover rounded-2xl shadow-custom-lg"
               />

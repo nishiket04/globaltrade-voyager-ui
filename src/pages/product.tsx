@@ -13,7 +13,10 @@ import {
   ArrowRight,
   Gem,
 } from "lucide-react";
-
+import img2 from "@/images/img2.jpg"
+import img4 from "@/images/img4.jpg"
+import img3 from "@/images/img3.jpg"
+import service3 from "@/images/service_3.webp";
 const Product = () => {
   const mainServices = [
     {
@@ -21,32 +24,32 @@ const Product = () => {
       title: "Industrial Salt ",
       description:
         "We offer high-purity Industrial Salt suitable for a wide range of industrial applications, including chemical manufacturing, de-icing, water treatment, textiles, detergents, drilling, and food processing (non-edible use). Sourced from trusted producers and processed under stringent quality control, our salt meets international standards. Available in bulk or customized packaging, our Industrial Salt ensures consistent grain size, low moisture content, and reliable supply logistics to meet the needs of global buyers.",
-      
-      image: "src/images/img2.jpg",
+
+      image: img2 ,
     },
     {
       icon: FileCheck,
       title: "Jute Bags",
       description:
         "Our premium jute bags are crafted from 100% natural, biodegradable fibers, making them an ideal eco-conscious alternative to plastic. Designed for durability and style, these bags are perfect for shopping, packaging, gifting, and promotional use.We offer a wide range of customizable jute bags in various sizes, colors, and prints to suit diverse international markets. Whether you're a retailer, wholesaler, or brand, our jute bags ensure high strength, elegant appeal, and a strong sustainability statement.",
-      
-      image: "src/images/service_3.webp",
+
+      image: service3,
     },
     {
       icon: Search,
       title: "Sewing weaving thread ",
       description:
         "We offer a premium range of sewing and weaving threads crafted from high-quality polyester, cotton, and blended fibers. Our threads are engineered for high tensile strength, color fastness, and smooth performance across a wide range of industrial and domestic applications. Suitable for garment manufacturing, home textiles, upholstery, footwear, and traditional weaving, our threads are available in various counts, colors, and spool sizes to meet international standards and client requirements.",
-      
-      image: "src/images/img4.jpg",
+
+      image: img4,
     },
     {
       icon: Globe,
       title: "Cocopeat ",
       description:
         "Cocopeat, also known as coir pith or coir dust, is a natural, lightweight, and eco-friendly growing medium made from coconut husk fibers. Highly porous and excellent in water retention, it is ideal for seed starting, potting mixes, hydroponic systems, and soil conditioning.Our export-grade cocopeat is carefully processed, washed, and dried to maintain low EC and pH levels, ensuring optimal plant growth. Available in 5kg blocks, grow bags, or loose form, it is suitable for a wide range of crops and climates.",
-     
-      image: "src/images/img3.jpg",
+
+      image: img3,
     },
   ];
 
@@ -98,17 +101,15 @@ const Product = () => {
             {mainServices.map((service, index) => (
               <div
                 key={index}
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
-                  index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
-                }`}
+                className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
+                  }`}
               >
                 <div
-                  className={`space-y-6 ${
-                    index % 2 === 1 ? "lg:col-start-2" : ""
-                  }`}
+                  className={`space-y-6 ${index % 2 === 1 ? "lg:col-start-2" : ""
+                    }`}
                 >
                   <div className="flex items-center space-x-3">
-                    
+
                     <h3 className="text-2xl lg:text-3xl font-bold text-navy">
                       {service.title}
                     </h3>

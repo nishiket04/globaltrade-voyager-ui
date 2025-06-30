@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Ship } from "lucide-react";
+import logo from "@/images/argoi.svg"
 
 
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
 
             <div className="flex items-center space-x-2">
               <img
-                src="src/images/argoi.svg"
+                src={logo}
                 alt="International Trade Technology"
                 className="h-12 w-12 object-contain"
               />
