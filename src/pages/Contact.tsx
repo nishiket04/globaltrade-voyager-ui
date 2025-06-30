@@ -5,7 +5,7 @@ const Contact = () => {
   const contactInfo = [{
     icon: MapPin,
     title: "Our Office",
-    details: ["95, Hariramnagar-2, Subhashnagar", "Bhavnagar, 364001", "India"]
+    details: ["95, Hariramnagar-2, Subhashnagar", "Bhavnagar, Gujarat, 364001", "India"]
   }, {
     icon: Phone,
     title: "Phone",
@@ -13,7 +13,7 @@ const Contact = () => {
   }, {
     icon: Mail,
     title: "Email",
-    details: ["argoimex@gmail.com"]
+    details: ["contact@argoimex.com"]
   }, {
     icon: Clock,
     title: "Business Hours (Indian time line)",

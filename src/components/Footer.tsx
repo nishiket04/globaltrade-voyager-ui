@@ -61,11 +61,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-cyan" />
-                <span>argoimex@gmail.com</span>
+                <span>contact@argoimex.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-cyan" />
-                <span>95, Hariramnagar-2, Subhashnagar, Bhavnagar, 364001.</span>
+                <span>95, Hariramnagar-2, Subhashnagar, Bhavnagar, Gujarat, India, 364001.</span>
               </div>
             </div>
           </div>
