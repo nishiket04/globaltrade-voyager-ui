@@ -13,10 +13,7 @@ import {
   ArrowRight,
   Gem,
 } from "lucide-react";
-import img2 from "@/images/img2.jpg"
-import img4 from "@/images/img4.jpg"
-import img3 from "@/images/img3.jpg"
-import service3 from "@/images/service_3.webp";
+
 const Product = () => {
   const mainServices = [
     {
@@ -26,9 +23,6 @@ const Product = () => {
         "We offer high-purity Industrial Salt suitable for a wide range of industrial applications, including chemical manufacturing, de-icing, water treatment, textiles, detergents, drilling, and food processing (non-edible use). Sourced from trusted producers and processed under stringent quality control, our salt meets international standards. Available in bulk or customized packaging, our Industrial Salt ensures consistent grain size, low moisture content, and reliable supply logistics to meet the needs of global buyers.",
 
       image: "src/images/img2.jpg",
-=======
-      image: img2 ,
->>>>>>> 0e46c6c0373ecbff8fef82b3d16b2a028d63a28b
     },
     {
       icon: FileCheck,
@@ -36,11 +30,7 @@ const Product = () => {
       description:
         "Our premium jute bags are crafted from 100% natural, biodegradable fibers, making them an ideal eco-conscious alternative to plastic. Designed for durability and style, these bags are perfect for shopping, packaging, gifting, and promotional use.We offer a wide range of customizable jute bags in various sizes, colors, and prints to suit diverse international markets. Whether you're a retailer, wholesaler, or brand, our jute bags ensure high strength, elegant appeal, and a strong sustainability statement.",
 
-<<<<<<< HEAD
       image: "src/images/service_3.webp",
-=======
-      image: service3,
->>>>>>> 0e46c6c0373ecbff8fef82b3d16b2a028d63a28b
     },
     {
       icon: Search,
@@ -48,23 +38,15 @@ const Product = () => {
       description:
         "We offer a premium range of sewing and weaving threads crafted from high-quality polyester, cotton, and blended fibers. Our threads are engineered for high tensile strength, color fastness, and smooth performance across a wide range of industrial and domestic applications. Suitable for garment manufacturing, home textiles, upholstery, footwear, and traditional weaving, our threads are available in various counts, colors, and spool sizes to meet international standards and client requirements.",
 
-<<<<<<< HEAD
       image: "src/images/img4.jpg",
-=======
-      image: img4,
->>>>>>> 0e46c6c0373ecbff8fef82b3d16b2a028d63a28b
     },
     {
       icon: Globe,
-      title: "Cocopeat ",
+      title: "Denim Jeans ",
       description:
-        "Cocopeat, also known as coir pith or coir dust, is a natural, lightweight, and eco-friendly growing medium made from coconut husk fibers. Highly porous and excellent in water retention, it is ideal for seed starting, potting mixes, hydroponic systems, and soil conditioning.Our export-grade cocopeat is carefully processed, washed, and dried to maintain low EC and pH levels, ensuring optimal plant growth. Available in 5kg blocks, grow bags, or loose form, it is suitable for a wide range of crops and climates.",
+        "Discover our collection of high-quality denim jeans, crafted for comfort, durability, and timeless style. Designed using premium denim fabrics, these jeans offer a perfect balance of softness and strength, making them suitable for everyday wear and special occasions alike. Available in a variety of fits and washes from classic straight and slim fit to modern tapered styles. our denim jeans cater to diverse tastes and preferences.",
 
-<<<<<<< HEAD
-      image: "src/images/img3.jpg",
-=======
-      image: img3,
->>>>>>> 0e46c6c0373ecbff8fef82b3d16b2a028d63a28b
+      image: "src/images/jeans3.jpg",
     },
   ];
 
@@ -127,10 +109,6 @@ const Product = () => {
                     }`}
                 >
                   <div className="flex items-center space-x-3">
-<<<<<<< HEAD
-=======
-
->>>>>>> 0e46c6c0373ecbff8fef82b3d16b2a028d63a28b
                     <h3 className="text-2xl lg:text-3xl font-bold text-navy">
                       {service.title}
                     </h3>

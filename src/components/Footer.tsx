@@ -66,11 +66,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-cyan" />
-<<<<<<< HEAD
                 <span>95, Hariramnagar-2, Subhashnagar,  Bhavnagar-364001,  Gujarat, india.</span>
-=======
-                <span>95, Hariramnagar-2, Subhashnagar, Bhavnagar, Gujarat, 364001 India.</span>
->>>>>>> 0e46c6c0373ecbff8fef82b3d16b2a028d63a28b
               </div>
             </div>
           </div>
