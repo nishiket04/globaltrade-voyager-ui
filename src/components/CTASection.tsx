@@ -25,7 +25,7 @@ const CTASection = () => {
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-black bg-white hover:text-navy rounded-lg px-8">
                <a 
-                href="https://mail.google.com/mail/?view=cm&to=argoimex@gmail.com" 
+                href="https://mail.google.com/mail/?view=cm&to=contact@argoimex.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
