@@ -1,7 +1,6 @@
-
 import { Link } from "react-router-dom";
 import { Ship, Mail, Phone, MapPin } from "lucide-react";
-import logo from "@/images/argoi.svg"
+import logo from "@/images/argoi.svg";
 
 const Footer = () => {
   return (
@@ -11,14 +10,19 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img
-                src={logo}
-                alt="International Trade Technology"
-                className="h-10 w-10 object-contain"
-              />              <span className="text-xl font-bold">Argoimex </span>
+              <div className="h-10 w-10 rounded-full bg-white shadow flex items-center justify-center">
+                <img
+                  src={logo}
+                  alt="International Trade Technology"
+                  className="h-8 w-8 object-contain"
+                />
+              </div>
+              <span className="text-xl font-bold">Argoimex</span>
             </div>
+
             <p className="text-gray-300 text-sm">
-              Professional export services for international trade. Building bridges across global markets with trust and expertise.
+              Professional export services for international trade. Building
+              bridges across global markets with trust and expertise.
             </p>
           </div>
 
@@ -26,7 +30,6 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="space-y-2">
-
               {["Home", "About", "Product", "Contact"].map((item) => (
                 <li key={item}>
                   <Link
@@ -40,7 +43,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Our Services */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Our Services</h3>
             <ul className="space-y-2 text-sm text-gray-300">
@@ -65,8 +68,11 @@ const Footer = () => {
                 <span>contact@argoimex.com</span>
               </div>
               <div className="flex items-center space-x-2">
-                <MapPin className="h-4 w-4 text-cyan" />
-                <span>95, Hariramnagar-2, Subhashnagar,  Bhavnagar-364001,  Gujarat, india.</span>
+                <MapPin className="h-7 w-7 text-cyan" />
+                <span>
+                  95, Hariramnagar-2, Subhashnagar, Bhavnagar-364001, Gujarat,
+                  India.
+                </span>
               </div>
             </div>
           </div>
@@ -74,7 +80,8 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Argoimex Exports. All rights reserved. | Professional Export Services
+            © 2025 Argoimex Exports. All rights reserved. | Professional Export
+            Services
           </p>
         </div>
       </div>

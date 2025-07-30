@@ -1,10 +1,8 @@
-
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Ship } from "lucide-react";
-import logo from "@/images/argoi.svg"
-
+import logo from "@/images/argoi.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +15,6 @@ const Navbar = () => {
     { name: "About", path: "/about" },
     { name: "Product", path: "/product" },
     { name: "Contact", path: "/contact" },
-
   ];
 
   return (
@@ -25,20 +22,18 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
-
-            <div className="flex items-center space-x-2">
+          <Link
+            to="/"
+            className="flex items-center hover:opacity-80 transition-opacity"
+          >
+            <div className="h-12 w-12 rounded-full bg-white border shadow  border-gray-200 flex items-center justify-center">
               <img
                 src={logo}
                 alt="International Trade Technology"
-                className="h-12 w-12 object-contain"
+                className="h-8 w-8 object-contain"
               />
-              <span className="text-3xl font-bold text-navy">ARGOIMEX</span>
             </div>
-
-
           </Link>
-
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-centFer space-x-8">
@@ -46,8 +41,9 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-[#0F2681] ${isActive(item.path) ? "text-[#0F2681]" : "text-navy"
-                  }`}
+                className={`text-sm font-medium transition-colors hover:text-[#0F2681] ${
+                  isActive(item.path) ? "text-[#0F2681]" : "text-navy"
+                }`}
               >
                 {item.name}
               </Link>
@@ -65,7 +61,11 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
               className="text-navy"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </Button>
           </div>
         </div>
@@ -79,13 +79,17 @@ const Navbar = () => {
                   key={item.name}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`text-sm font-medium transition-colors hover:text-cyan ${isActive(item.path) ? "text-cyan" : "text-navy"
-                    }`}
+                  className={`text-sm font-medium transition-colors hover:text-cyan ${
+                    isActive(item.path) ? "text-cyan" : "text-navy"
+                  }`}
                 >
                   {item.name}
                 </Link>
               ))}
-              <Button asChild className="bg-cyan hover:bg-cyan/90 text-white rounded-lg w-fit">
+              <Button
+                asChild
+                className="bg-cyan hover:bg-cyan/90 text-white rounded-lg w-fit"
+              >
                 <Link to="/contact" onClick={() => setIsOpen(false)}>
                   Get Quote
                 </Link>
