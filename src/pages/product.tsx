@@ -14,6 +14,11 @@ import {
   Gem,
 } from "lucide-react";
 
+import img2 from "@/images/img2.jpg";
+import service3 from "@/images/service_3.webp";
+import img4 from "@/images/img4.jpg";
+import jeans3 from "@/images/jeans3.jpg";
+
 const Product = () => {
   const mainServices = [
     {
