@@ -6,9 +6,11 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 import { Send } from "lucide-react";
+
 const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -23,6 +25,7 @@ const ContactForm = () => {
     setIsSubmitting(false);
     (e.target as HTMLFormElement).reset();
   };
+
   return (
     <Card className="border border-gray-100 rounded-xl shadow-custom">
       <CardContent className="p-8 bg-white">
@@ -38,7 +41,7 @@ const ContactForm = () => {
                 type="text"
                 required
                 placeholder="Enter your full name"
-                className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent placeholder:text-gray-400"
+                className="border-gray-200 focus:border-[#0F2681] focus:ring-[#0F2681] rounded-lg bg-transparent placeholder:text-gray-400"
               />
             </div>
 
@@ -52,7 +55,7 @@ const ContactForm = () => {
                 type="email"
                 required
                 placeholder="Enter your email address"
-                className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent placeholder:text-gray-400"
+                className="border-gray-200 focus:border-[#0F2681] focus:ring-[#0F2681] rounded-lg bg-transparent placeholder:text-gray-400"
               />
             </div>
           </div>
@@ -66,7 +69,7 @@ const ContactForm = () => {
               name="company"
               type="text"
               placeholder="Enter your company name"
-              className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent placeholder:text-gray-400"
+              className="border-gray-200 focus:border-[#0F2681] focus:ring-[#0F2681] rounded-lg bg-transparent placeholder:text-gray-400"
             />
           </div>
 
@@ -80,7 +83,7 @@ const ContactForm = () => {
               type="tel"
               required
               placeholder="Enter your contact number"
-              className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent placeholder:text-gray-400"
+              className="border-gray-200 focus:border-[#0F2681] focus:ring-[#0F2681] rounded-lg bg-transparent placeholder:text-gray-400"
             />
           </div>
 
@@ -94,7 +97,7 @@ const ContactForm = () => {
               type="text"
               required
               placeholder="Enter your country"
-              className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg bg-transparent placeholder:text-gray-400"
+              className="border-gray-200 focus:border-[#0F2681] focus:ring-[#0F2681] rounded-lg bg-transparent placeholder:text-gray-400"
             />
           </div>
 
@@ -108,14 +111,14 @@ const ContactForm = () => {
               required
               rows={6}
               placeholder="Tell us about your export needs, target markets, or any questions you have..."
-              className="border-gray-200 focus:border-cyan focus:ring-cyan rounded-lg resize-none bg-transparent placeholder:text-gray-400"
+              className="border-gray-200 focus:border-[#0F2681] focus:ring-[#0F2681] rounded-lg resize-none bg-transparent placeholder:text-gray-400"
             />
           </div>
 
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-cyan hover:bg-cyan/90 text-white rounded-lg h-12 text-lg font-medium"
+            className="w-full bg-[#1B3793] hover:bg-[#0F2681] text-white rounded-lg h-12 text-lg font-medium"
           >
             {isSubmitting ? (
               <div className="flex items-center space-x-2">
@@ -139,4 +142,5 @@ const ContactForm = () => {
     </Card>
   );
 };
+
 export default ContactForm;

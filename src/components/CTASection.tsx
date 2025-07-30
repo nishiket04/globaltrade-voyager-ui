@@ -17,13 +17,13 @@ const CTASection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-cyan hover:bg-cyan/90 text-white rounded-lg px-8">
+            <Button asChild size="lg" className="bg-[#1B3793] hover:bg-[#0F2681] text-white rounded-lg px-8">
               <Link to="/contact">
                 Get Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-black bg-white hover:text-navy rounded-lg px-8">
+            <Button asChild variant="outline" size="lg" className="border-white text-black bg-white hover:bg-[#0F2681] rounded-lg px-8">
                <a 
                 href="https://mail.google.com/mail/?view=cm&to=contact@argoimex.com" 
                 target="_blank" 

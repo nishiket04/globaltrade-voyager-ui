@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Globe, TrendingUp, Shield } from "lucide-react";
@@ -13,26 +12,35 @@ const HeroSection = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-navy leading-tight">
-                Your Gateway to 
-                <span className="text-cyan"> Argoimex</span>
+                Your Gateway to
+                <span className="text-[#1B3793]"> Argoimex</span>
               </h1>
               <p className="text-lg lg:text-xl text-gray-600 leading-relaxed">
-                Professional export services that connect your business to international markets. 
-                We handle the complexity so you can focus on growth.
+                Professional export services that connect your business to
+                international markets. We handle the complexity so you can focus
+                on growth.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-cyan hover:bg-cyan/90 text-white rounded-lg px-8">
+              <Button
+                asChild
+                size="lg"
+                className="bg-[#1B3793] hover:bg-[#0F2681] text-white rounded-lg px-8"
+              >
                 <Link to="/contact">
                   Get Started Today
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-navy text-navy bg-white hover:bg-navy hover:text-white rounded-lg px-8">
-                <Link to="/product">
-                  Our Products
-                </Link>
+
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="border-navy text-navy bg-white hover:bg-[#0F2681] hover:text-white rounded-lg px-8"
+              >
+                <Link to="/product">Our Products</Link>
               </Button>
             </div>
 
@@ -59,14 +67,14 @@ const HeroSection = () => {
           {/* Hero Image */}
           <div className="relative animate-slide-in">
             <div className="relative">
-               <img
+              <img
                 src={heroImage}
                 alt="Global Trade Team"
                 className="w-full h-96 object-cover rounded-2xl shadow-custom-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/20 to-transparent rounded-2xl"></div>
             </div>
-            
+
             {/* Floating card */}
             {/* <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-custom-lg border border-gray-100">
               <div className="flex items-center space-x-3">

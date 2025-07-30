@@ -36,7 +36,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-in">
               <h1 className="text-4xl lg:text-5xl font-bold text-navy">
-                About <span className="text-cyan">Argoimex </span>
+                About <span className="text-[#0F2681]">Argoimex </span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
                 At Argoimex, we are driven by a mission to take the richness of
@@ -75,7 +75,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <Card className="border-0 shadow-custom rounded-xl">
               <CardContent className="p-8 bg-white">
-                <Target className="h-12 w-12 text-cyan mb-6" />
+                <Target className="h-12 w-12 text-[#0F2681] mb-6" />
                 <h3 className="text-2xl font-bold text-navy mb-4">
                   Our Mission
                 </h3>
@@ -90,7 +90,7 @@ const About = () => {
 
             <Card className="border-0 shadow-custom rounded-xl">
               <CardContent className="p-8 bg-white">
-                <Eye className="h-12 w-12 text-cyan mb-6" />
+                <Eye className="h-12 w-12 text-[#0F2681] mb-6" />
                 <h3 className="text-2xl font-bold text-navy mb-4">
                   Our Vision
                 </h3>
@@ -126,7 +126,7 @@ const About = () => {
                 className="bg-white border-0 shadow-custom rounded-xl text-center"
               >
                 <CardContent className="p-8">
-                  <value.icon className="h-12 w-12 text-cyan mx-auto mb-4" />
+                  <value.icon className="h-12 w-12 text-[#0F2681] mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-navy mb-3">
                     {value.title}
                   </h3>

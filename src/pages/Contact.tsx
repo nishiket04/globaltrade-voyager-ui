@@ -25,7 +25,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto space-y-8 animate-fade-in">
             <h1 className="text-4xl lg:text-5xl font-bold text-navy">
-              Get in <span className="text-cyan">Touch</span>
+              Get in <span className="text-[#3A5BC7]">Touch</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
               Ready to expand your business globally? Contact our export experts today for a 
@@ -64,7 +64,7 @@ const Contact = () => {
                     <CardContent className="p-6 bg-white">
                       <div className="flex items-start space-x-4">
                         <div className="w-12 h-12 bg-light-cyan rounded-lg flex items-center justify-center flex-shrink-0">
-                          <info.icon className="h-6 w-6 text-cyan" />
+                          <info.icon className="h-6 w-6 text-[#1B3793]" />
                         </div>
                         <div>
                           <h3 className="font-semibold text-navy mb-2">{info.title}</h3>

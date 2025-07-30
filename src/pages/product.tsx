@@ -81,7 +81,7 @@ const Product = () => {
           <div className="max-w-3xl mx-auto space-y-8 animate-fade-in">
             <h1 className="text-4xl lg:text-5xl font-bold text-navy">
             Premium  
-              <span className="text-cyan"> Export Products</span>
+              <span className="text-[#0F2681]"> Export Products</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
               Explore our diverse range of
@@ -128,7 +128,7 @@ const Product = () => {
 
                   <Button
                     asChild
-                    className="bg-cyan hover:bg-cyan/90 text-white rounded-lg"
+                    className="bg-[#1B3793] hover:bg-[#0F2681] text-white rounded-lg"
                   >
                     <Link to="/contact">
                       Contact us
@@ -170,7 +170,7 @@ const Product = () => {
                 className="bg-white border-0 shadow-custom rounded-xl text-center group hover:shadow-custom-lg transition-all"
               >
                 <CardContent className="p-8">
-                  <service.icon className="h-12 w-12 text-cyan mx-auto mb-4 group-hover:scale-110 transition-transform" />
+                  <service.icon className="h-12 w-12 text-[#1B3793] mx-auto mb-4 group-hover:scale-110 transition-transform" />
                   <h3 className="text-lg font-semibold text-navy mb-3">
                     {service.title}
                   </h3>
@@ -196,7 +196,7 @@ const Product = () => {
             <Button
               asChild
               size="lg"
-              className="bg-cyan hover:bg-cyan/90 text-white rounded-lg px-8"
+              className="bg-[#1B3793] hover:bg-[#0F2681] text-white rounded-lg px-8"
             >
               <Link to="/contact">
                 Get Free Consultation

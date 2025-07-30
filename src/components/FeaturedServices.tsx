@@ -36,8 +36,8 @@ const FeaturedServices = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => <Card key={index} className="group hover:shadow-custom-lg transition-all duration-300 border border-gray-100 rounded-xl bg-white">
               <CardContent className="p-6 text-center bg-white">
-                <div className="w-16 h-16 bg-light-cyan rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-cyan transition-colors">
-                  <service.icon className="h-8 w-8 text-cyan group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 bg-light-cyan rounded-xl flex items-center justify-center mx-auto mb-4  transition-colors">
+                  <service.icon className="h-8 w-8 text-[#1B3793] group-hover:text-[#0F2681] transition-colors" />
                 </div>
                 <h3 className="text-xl font-semibold text-navy mb-3">{service.title}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>

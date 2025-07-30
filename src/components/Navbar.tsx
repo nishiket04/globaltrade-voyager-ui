@@ -46,7 +46,7 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-cyan ${isActive(item.path) ? "text-cyan" : "text-navy"
+                className={`text-sm font-medium transition-colors hover:text-[#0F2681] ${isActive(item.path) ? "text-[#0F2681]" : "text-navy"
                   }`}
               >
                 {item.name}
