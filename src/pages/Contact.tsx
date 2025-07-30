@@ -5,11 +5,7 @@ const Contact = () => {
   const contactInfo = [{
     icon: MapPin,
     title: "Our Office",
-<<<<<<< HEAD
     details: ["95, Hariramnagar-2, Subhashnagar", " Bhavnagar-364001,  Gujarat, india", "India"]
-=======
-    details: ["95, Hariramnagar-2, Subhashnagar", "Bhavnagar, Gujarat, 364001", "India"]
->>>>>>> 0e46c6c0373ecbff8fef82b3d16b2a028d63a28b
   }, {
     icon: Phone,
     title: "Phone",
