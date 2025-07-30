@@ -27,7 +27,7 @@ const Product = () => {
       description:
         "We offer high-purity Industrial Salt suitable for a wide range of industrial applications, including chemical manufacturing, de-icing, water treatment, textiles, detergents, drilling, and food processing (non-edible use). Sourced from trusted producers and processed under stringent quality control, our salt meets international standards. Available in bulk or customized packaging, our Industrial Salt ensures consistent grain size, low moisture content, and reliable supply logistics to meet the needs of global buyers.",
 
-      image: "src/images/img2.jpg",
+      image: "/src/images/img2.jpg",
     },
     {
       icon: FileCheck,
