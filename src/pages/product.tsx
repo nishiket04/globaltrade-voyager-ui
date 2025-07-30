@@ -80,14 +80,14 @@ const Product = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto space-y-8 animate-fade-in">
             <h1 className="text-4xl lg:text-5xl font-bold text-navy">
-            Premium  
-              <span className="text-[#0F2681]"> Export Products</span>
+            Powering  
+              <span className="text-[#0F2681]"> Global Supply</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
               Explore our diverse range of
               high-grade export products, carefully sourced and manufactured to
               meet international standards. Whether you're looking for
-              industrial materials or specialty items, we ensure consistent
+              industrial materials or life-style products, we ensure consistent
               quality and global supply capability.
             </p>
           </div>
