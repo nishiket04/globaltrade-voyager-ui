@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Ship } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import logo from "@/images/argoi.svg";
 
 const Navbar = () => {
@@ -24,31 +24,33 @@ const Navbar = () => {
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center hover:opacity-80 transition-opacity"
+            className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
-            <div className="h-12 w-12 rounded-full bg-white border shadow  border-gray-200 flex items-center justify-center">
-              <img
-                src={logo}
-                alt="International Trade Technology"
-                className="h-8 w-8 object-contain"
-              />
-            </div>
+            <img
+              src={logo}
+              alt="International Trade Technology"
+              className="h-12 w-12 object-contain"
+            />
+            <span className="text-[#1B3793] hover:text-[#0F2681] font-semibold text-xl">Argomx</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-centFer space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-[#0F2681] ${
-                  isActive(item.path) ? "text-[#0F2681]" : "text-navy"
+                className={`text-sm font-medium transition-colors ${
+                  isActive(item.path)
+                    ? "text-[#0F2681]"
+                    : "text-[#1B3793] hover:text-[#0F2681]"
                 }`}
               >
                 {item.name}
               </Link>
             ))}
-            {/* <Button asChild className="bg-cyan hover:bg-cyan/90 text-white rounded-lg px-6">
+            {/* Example Get Quote button */}
+            {/* <Button asChild className="bg-[#1B3793] hover:bg-[#0F2681] text-white rounded-lg px-6">
               <Link to="/contact">Get Quote</Link>
             </Button> */}
           </div>
@@ -59,7 +61,7 @@ const Navbar = () => {
               variant="ghost"
               size="sm"
               onClick={() => setIsOpen(!isOpen)}
-              className="text-navy"
+              className="text-[#1B3793]"
             >
               {isOpen ? (
                 <X className="h-6 w-6" />
@@ -79,8 +81,10 @@ const Navbar = () => {
                   key={item.name}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`text-sm font-medium transition-colors hover:text-cyan ${
-                    isActive(item.path) ? "text-cyan" : "text-navy"
+                  className={`text-sm font-medium transition-colors ${
+                    isActive(item.path)
+                      ? "text-[#0F2681]"
+                      : "text-[#1B3793] hover:text-[#0F2681]"
                   }`}
                 >
                   {item.name}
@@ -88,7 +92,7 @@ const Navbar = () => {
               ))}
               <Button
                 asChild
-                className="bg-cyan hover:bg-cyan/90 text-white rounded-lg w-fit"
+                className="bg-[#1B3793] hover:bg-[#0F2681] text-white rounded-lg w-fit"
               >
                 <Link to="/contact" onClick={() => setIsOpen(false)}>
                   Get Quote
