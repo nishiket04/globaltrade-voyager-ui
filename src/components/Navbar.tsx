@@ -31,7 +31,9 @@ const Navbar = () => {
               alt="International Trade Technology"
               className="h-12 w-12 object-contain"
             />
-            <span className="text-[#1B3793] hover:text-[#0F2681] font-semibold text-xl">Argomx</span>
+               
+            <span className="text-[#1B3793] hover:text-[#0F2681] font-semibold text-xl">
+              Argoimex</span>
           </Link>
 
           {/* Desktop Navigation */}
