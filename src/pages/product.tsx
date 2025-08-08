@@ -27,7 +27,7 @@ const Product = () => {
       description:
         "We offer high-purity Industrial Salt suitable for a wide range of industrial applications, including chemical manufacturing, de-icing, water treatment, textiles, detergents, drilling, and food processing (non-edible use). Sourced from trusted producers and processed under stringent quality control, our salt meets international standards. Available in bulk or customized packaging, our Industrial Salt ensures consistent grain size, low moisture content, and reliable supply logistics to meet the needs of global buyers.",
 
-      image: "/src/images/img2.jpg",
+      image: img2,
     },
     {
       icon: FileCheck,
@@ -35,7 +35,7 @@ const Product = () => {
       description:
         "Our premium jute bags are crafted from 100% natural, biodegradable fibers, making them an ideal eco-conscious alternative to plastic. Designed for durability and style, these bags are perfect for shopping, packaging, gifting, and promotional use.We offer a wide range of customizable jute bags in various sizes, colors, and prints to suit diverse international markets. Whether you're a retailer, wholesaler, or brand, our jute bags ensure high strength, elegant appeal, and a strong sustainability statement.",
 
-      image: "src/images/service_3.webp",
+      image: service3,
     },
     {
       icon: Search,
@@ -43,7 +43,7 @@ const Product = () => {
       description:
         "We offer a premium range of sewing and weaving threads crafted from high-quality polyester, cotton, and blended fibers. Our threads are engineered for high tensile strength, color fastness, and smooth performance across a wide range of industrial and domestic applications. Suitable for garment manufacturing, home textiles, upholstery, footwear, and traditional weaving, our threads are available in various counts, colors, and spool sizes to meet international standards and client requirements.",
 
-      image: "src/images/img4.jpg",
+      image: img4,
     },
     {
       icon: Globe,
@@ -51,7 +51,7 @@ const Product = () => {
       description:
         "Discover our collection of high-quality denim jeans, crafted for comfort, durability, and timeless style. Designed using premium denim fabrics, these jeans offer a perfect balance of softness and strength, making them suitable for everyday wear and special occasions alike. Available in a variety of fits and washes from classic straight and slim fit to modern tapered styles. our denim jeans cater to diverse tastes and preferences.",
 
-      image: "src/images/jeans3.jpg",
+      image: jeans3,
     },
   ];
 
